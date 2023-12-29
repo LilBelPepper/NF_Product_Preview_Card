@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- GitHub Source Code!: [Add solution URL here]([https://your-solution-url.com](https://github.com/LilBelPepper/NF_Product_Preview_Card.git)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
