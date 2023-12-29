@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Thid properly displays the site based on
+        the user's device size-->
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="stylesheet" href="./bel_style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"> <!--This is added so we may use a font family
+            found on google fonts-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fraunces">
+        <title>Frontend Mentor | Product Preview Card</title>
+    </head>
+    <body>
+        <div class="card-content">
+            <img class="product-photo" src="./images/image-product-desktop.jpg" alt="Photo of a bottle of Gabrielle Essence Eau De Parfum by Chanel">
+            <div class="product-info"> <!-- Making a separate container for the product text allows me to have it in the proper
+            format. Without this additional div, the text follows the card-content flex direction-->
+                <h2 class="product-type">P e r f u m e</h2>
+                <h1 class="product-name">Gabrielle Essence Eau De Parfum</h1>
+                <p class="desc">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator
+                for the House of CHANEL.
+                </p>
+                <div class="prices">
+                    <h1 class="deal-price">$149.99</h1>
+                    <p class="org-price">$169.99</p>
+                </div>
+                <!-- I wanted to try using the <i> element to add icons but I think the easiest for me right now is to use the
+                    img element instead-->
+                <button class="add-to-cart"><img src="./images/icon-cart.svg">Add to Cart</button>
+            </div>
+        </div>
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://www.linkedin.com/in/nicole-fortin-3530b9211" target="_blank">Nicole Javier Belmonte Fortin</a>.
+        </div>
+    </body>
+</html>
